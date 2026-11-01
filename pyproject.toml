@@ -1,0 +1,26 @@
+[project]
+name = "cora"
+version = "1.0.0"
+description = "C.O.R.A - mapeamento colaborativo de riscos"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.28.3",
+    "requests>=2.32",
+]
+
+[tool.flet]
+product = "C.O.R.A"
+company = "CORA"
+copyright = "C.O.R.A"
+
+[tool.flet.app]
+path = "."
+module = "main"
+
+[tool.flet.android]
+split_per_abi = false
+
+[tool.flet.android.permission]
+"android.permission.INTERNET" = true
+"android.permission.READ_MEDIA_IMAGES" = true
+"android.permission.READ_EXTERNAL_STORAGE" = true

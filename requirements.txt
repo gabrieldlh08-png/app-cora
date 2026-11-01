@@ -1,0 +1,10 @@
+Django>=6.0
+requests>=2.32
+python-dotenv>=1.0
+Pillow>=10.0
+django-shadcn @ git+https://github.com/leandro-holanda/lib-django.git
+djangorestframework>=3.15
+djangorestframework-simplejwt>=5.3
+django-cors-headers>=4.4
+flet>=0.27,<0.29
+fastapi>=0.110,<0.116

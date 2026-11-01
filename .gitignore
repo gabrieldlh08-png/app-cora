@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenv
+venv/
+.venv/
+env/
+
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Banco e arquivos enviados
+db.sqlite3
+*.sqlite3
+media/*
+!media/.gitkeep
+
+# Django
+staticfiles/
+local_settings.py
+
+# IDE / SO
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
